@@ -2,10 +2,10 @@ import Footer from "@/components/ui/footer";
 import Header from "@/components/ui/header";
 import React from "react";
 import {
-    FlatList,
-    StyleSheet,
-    Text,
-    View,
+  FlatList,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -43,11 +43,12 @@ const TODAY_LECTURES: Lecture[] = [
   },
   {
     id: "4",
-    subject: "English",
-    teacher: "Ms. Roy",
+    subject: "Biology",
+    teacher: "Nitin",
     time: "01:30 - 02:30",
     room: "Room 105",
   },
+ 
 ];
 
 export default function TodayLecturesScreen() {

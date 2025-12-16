@@ -48,17 +48,17 @@ const HomeScreen: React.FC<Props> = ({ navigation }) => {
             <Text style={styles.text}>Lectures</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={()=>router.push("/attendence")}>
             <Attendence />
             <Text style={styles.text}>Attendance</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={()=>router.push("/studyMetarials")}>
             <StudyMetarials />
             <Text style={styles.text}>Study Material</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={()=>router.push("/performence")}>
             <Performence />
             <Text style={styles.text}>Performance</Text>
           </TouchableOpacity>
