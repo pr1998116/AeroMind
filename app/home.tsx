@@ -8,8 +8,8 @@ import {
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import Footer from "@/components/ui/footer";
-import Header from "@/components/ui/header";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import Announcement from "@/icons/announcement";
 import Attendence from "@/icons/attendence";
 import Lectures from "@/icons/lecture";

@@ -1,10 +1,11 @@
-import Header from "@/components/ui/header";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 import React from "react";
 import {
-    FlatList,
-    StyleSheet,
-    Text,
-    View,
+  FlatList,
+  StyleSheet,
+  Text,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -84,6 +85,7 @@ export default function Dues() {
         contentContainerStyle={styles.list}
         showsVerticalScrollIndicator={false}
       />
+      <Footer/>
     </SafeAreaView>
   );
 }

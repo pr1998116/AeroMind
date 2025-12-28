@@ -1,13 +1,13 @@
-import Footer from '@/components/ui/footer';
-import Header from '@/components/ui/header';
+import Footer from '@/components/footer';
+import Header from '@/components/header';
 import React, { useState } from 'react';
 import {
-    FlatList,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  FlatList,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
