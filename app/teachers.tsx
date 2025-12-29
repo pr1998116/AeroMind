@@ -1,5 +1,5 @@
 
-import SignupScreen from '@/components/signup';
+
 import * as DocumentPicker from 'expo-document-picker';
 import React, { useState } from 'react';
 import {
@@ -54,7 +54,7 @@ export default function TeacherDashboardScreen() {
   return (
     <SafeAreaProvider>
         <SafeAreaView>
-          <SignupScreen/>
+          
             <View style={styles.container}>
       <Text style={styles.heading}>Teacher Dashboard</Text>
 
